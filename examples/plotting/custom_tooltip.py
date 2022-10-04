@@ -1,3 +1,14 @@
+''' A graph using the periodic table of elements. This example
+demonstrates the different densities of atomic mass between the
+series of elements drawn from the periodic table.
+
+.. bokeh-example-metadata::
+    :sampledata: periodic_table
+    :apis: bokeh.plotting.figure.TOOLTIPS
+    :refs: :ref:`plotting` > :ref:`userguide_data` > :ref:`userguide_data_transforming`
+    :keywords: TOOLTIPS
+
+'''
 import pandas as pd
 
 from bokeh.plotting import figure, show
